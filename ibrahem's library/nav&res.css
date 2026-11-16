@@ -7,10 +7,10 @@
 /* navbar-color */
 :root {
     --navbar: #684141;
-    --navbar-second-color: #fff;
-    --navbar-font-color: rgb(255, 255, 255);
+    --navbar-second-color: #ffffff;
+    --navbar-font-color: rgb(0, 0, 0);
     --navbar-border: 1px rgb(0, 0, 0) solid;
-    --navbar-second-border: 1px #ccc solid;
+    --navbar-second-border: 1px #292929 solid;
     --navbar-transition: 0.3s ease all;
     --navbar-font: 650;
 }
@@ -49,19 +49,23 @@
 
 /* normal-navbar */
 
+
 .navbar header {   /* .navbar is the parent */
     display: flex;
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: #ffffff1d;
+    background-color: #ffffff45;
     text-transform: capitalize;
-    margin: 15px 225px;
+    margin: 15px 175px;
     border-radius: 50px;
-    border: #dadada 1px solid;
+    border: #dadada 1.4px solid;
     backdrop-filter: blur(15px);
     gap: 15px;
     z-index: 9999;
+    position: fixed;
+    right: 0;
+    left: 0;
 }
 header .logo img {
     width: 55px;
@@ -97,7 +101,7 @@ header .links nav ul li a:hover {
 
 @media (max-width: 767px) {
     .navbar header {
-        position: relative;
+        position: fixed;
         justify-content: space-evenly;
         margin: 15px 45px;
         gap: 0;
@@ -110,10 +114,10 @@ header .links nav ul li a:hover {
     header .links i {
         display: inline-block;
         position: relative;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     header .links nav {
-        background-color: #b1b1b15f;
+        background-color: #d8d8d8d8;
         position: absolute;
         right: 20px;
         left: 20px;
