@@ -55,11 +55,11 @@
     justify-content: space-around;
     align-items: center;
     height: 75px;
-    background-color: #ffffff45;
+    background-color: #e8e8e830;
     text-transform: capitalize;
     margin: 15px 175px;
     border-radius: 50px;
-    border: #dadada 1.4px solid;
+    border: #eee 1.4px solid;
     backdrop-filter: blur(15px);
     gap: 15px;
     z-index: 9999;
