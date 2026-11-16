@@ -1,0 +1,13 @@
+html {
+    font-family: "Roboto", sans-serif;
+    background-color: var(--background-color);
+}
+:root {
+    --background-color: #f7f7f7;
+    --main-color: #ddbea2;
+    --primary-color: #0f1e29;
+    --transition: 0.3s all ease;
+    --box-shadow: 0 3px 10px 4px rgb(100, 100, 100);
+    --border-radius: 7px;
+}
+
