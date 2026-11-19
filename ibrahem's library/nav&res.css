@@ -8,7 +8,7 @@
 :root {
     --navbar: #684141;
     --navbar-second-color: #ffffff;
-    --navbar-font-color: rgb(0, 0, 0);
+    --navbar-font-color: rgb(255, 255, 255);
     --navbar-border: 1px rgb(0, 0, 0) solid;
     --navbar-second-border: 1px #292929 solid;
     --navbar-transition: 0.3s ease all;
@@ -117,7 +117,7 @@ header .links nav ul li a:hover {
         color: rgb(255, 255, 255);
     }
     header .links nav {
-        background-color: #d8d8d8d8;
+        background-color: #9d9d9dd8;
         position: absolute;
         right: 20px;
         left: 20px;
